@@ -43,3 +43,14 @@ document.addEventListener('DOMContentLoaded', function() {
     // Trigger once on load
     handleScrollAnimation();
 });
+
+
+
+
+function toggleMenu() {
+  document.getElementById("menu").classList.toggle("active");
+}
+
+
+
+
